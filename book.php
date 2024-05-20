@@ -4,9 +4,9 @@ if (!isset($_COOKIE['user'])) {
     exit();
 }
 $host="127.0.0.1";
-$username="root";
-$password="Standard@13";
-$dbname="Mylog";
+$username="#username";#use your own username
+$password="#password";#use your own password
+$dbname="#dname";#use your own database name
 
 $mysqli = new mysqli($host,$username,$password,$dbname);
 

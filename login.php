@@ -1,10 +1,9 @@
 <?php
 session_start();
 $host="127.0.0.1";
-$username="root";
-$password="Standard@13";
-$dbname="Mylog";
-
+$username="#username";#use your own username
+$password="#password";#use your own password
+$dbname="#dname";#use your own database name
 $conn=mysqli_connect($host,$username,$password,$dbname);
 if(!$conn){
     die("Connection failed" .mysqli_connect_error());

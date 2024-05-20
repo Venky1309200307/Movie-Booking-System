@@ -1,9 +1,9 @@
 <?php
 
 $host="127.0.0.1";
-$username="root";
-$password="Standard@13";
-$dbname="Mylog";
+$username="#username";#use your own username
+$password="#password";#use your own password
+$dbname="#dname";#use your own database name
 
 $conn = new mysqli($host, $username, $password, $dbname);
 
